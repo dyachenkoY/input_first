@@ -81,7 +81,8 @@
     font-size: 17px;
 }
 
-.btn {
+.btn,
+.btn-dis {
     width: 20vw;
     margin-top: 5%;
     padding: 15px 6px;
