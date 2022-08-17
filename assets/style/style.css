@@ -15,9 +15,6 @@
     overflow: hidden;
 }
 
-.input {
-    border: 1px solid grey;
-}
 
 .title_form {
     margin-top: 4vh;
@@ -28,6 +25,7 @@
 
 .title_form_promo {
     margin-top: 2vh;
+    margin-left: 1vw;
     color: grey;
     font-size: 19px;
 }
@@ -53,24 +51,33 @@
     right: -14px;
 }
 
+.registration_form {
+    padding: 5%;
+}
+
 .input {
+    border: 1px solid grey;
     margin-top: 10%;
     padding: 15px 6px;
     border-radius: 5px;
 }
 
+.input:hover {
+    border: 1px solid rgb(2, 172, 2);
+}
+
 .input_name {
-    width: 9.9vw;
+    width: 49.3%;
 }
 
 .block_input {
-    width: 20vw;
+    width: 99%;
     display: block;
 }
 
 .label_terms {
     display: block;
-    margin-top: 5%;
+    margin: 5% 0 0 1%;
     font-size: 17px;
 }
 
@@ -85,6 +92,11 @@
     font-size: 18px;
     background-color: green;
     color: white;
+    transition: 0.2s linear;
+}
+
+.btn:hover {
+    background-color: rgb(2, 172, 2);
 }
 
 .link {
