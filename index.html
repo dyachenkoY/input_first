@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <section class="registration_section">
+        <h1 class="title_form">Register</h1>
+        <p class="title_form_promo">Create your account. It's free and only takes a minute.</p>
+
+        <form class="registration_form" action="#" method="get">
+                <input
+                class="input input_name"
+                name="first_name" 
+                type="text"
+                placeholder="First Name"
+                required
+                pattern="^[a-z0-9_-]{3,15}$"
+                autofocus
+                autocomplete="username">
+
+                <input
+                class="input input_name"
+                name="last_name" 
+                type="text"
+                placeholder="Last Name"
+                required
+                pattern="^[a-z0-9_-]{3,15}$"
+                autofocus
+                autocomplete="username">
+            
+                <input
+                class="input block_input input_email"
+                type="email"
+                placeholder="Email"
+                name="email"
+                pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+
+                <input
+                class="input block_input input_pass" 
+                type="password"
+                placeholder="Password"
+                required>
+
+                <input
+                class="input block_input input_comfirmpass" 
+                type="password"
+                placeholder="Confirm Password"
+                required>
+                
+                
+                <label class="label_terms" for="terms">
+                    <input
+                    id="terms"
+                    class="checked" 
+                    type="checkbox"
+                    name="Terms"
+                    value="true">
+                    I accept the <a class="link" href="#">Terms of Use</a> & <a class="link" href="#">Privacy Policy</a></label>
+
+                <button class="btn" type="submit">Register Now</button>  
+        </form>
+
+    </section>
+</body>
+</html>
