@@ -101,3 +101,9 @@
 .link {
     color: green;
 }
+
+@media screen and (max-width: 1416px) and (min-width: 500px){
+    .input_name {
+        width: 99%;
+    }
+}
